@@ -27,11 +27,11 @@ public class JavaApp {
     }
 
     public static boolean task10and20(int x1, int x2) {
-        return ((x1 + x2) <= 20 && (x1 + x2) >= 10)
+        return ((x1 + x2) <= 20 && (x1 + x2) >= 10);
     }
 
     public static void isPositiveOrNegative(int x) {
-        return x >= 0) {
+        if (x >= 0) {
             System.out.println("Задание 5: Положительное");
         } else {
             System.out.println("Задание 5: Отрицательное");
