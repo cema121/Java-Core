@@ -27,13 +27,11 @@ public class JavaApp {
     }
 
     public static boolean task10and20(int x1, int x2) {
-        if ((x1 + x2) <= 20 && (x1 + x2) >= 10) {
-           return true;
-        } return false;
+        return ((x1 + x2) <= 20 && (x1 + x2) >= 10)
     }
 
     public static void isPositiveOrNegative(int x) {
-        if (x >= 0) {
+        return x >= 0) {
             System.out.println("Задание 5: Положительное");
         } else {
             System.out.println("Задание 5: Отрицательное");
@@ -41,9 +39,7 @@ public class JavaApp {
     }
 
     public static boolean isNegative(int x) {
-        if(x < 0) {
-            return true;
-        } return false;
+        return x < 0;
     }
 
     public static void greetings(String name) {
@@ -53,14 +49,11 @@ public class JavaApp {
     }
 
     public static void leapYear(int x) {
-        if (((x % 4) == 0) && ((x % 100) != 0)) {
-            System.out.println("Задание 8: " + x + " Високосный год");
-        } else if ((x % 400) == 0) {
+        if (((x % 4) == 0) && ((x % 100) != 0) || ((x % 400) == 0)) {
             System.out.println("Задание 8: " + x + " Високосный год");
         } else {
             System.out.println("Задание 8: " + x + " Не високосный год");
         }
     }
-
 }
 
