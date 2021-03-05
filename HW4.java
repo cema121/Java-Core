@@ -102,7 +102,7 @@ public class HW4 {
             y = rand.nextInt(SIZE);
         } while (!isCellValid(x, y));
         System.out.println("Компьютер походил в точку " + (x + 1) + " " + (y + 1) + "\n");
-        setSymbol(y, x, DOT_O);
+        setSymbol(x, y, DOT_O);
     }
 
     public static void humanTurn() {
