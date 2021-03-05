@@ -112,7 +112,7 @@ public class HW4 {
             x = sc.nextInt() - 1;
             y = sc.nextInt() - 1;
         } while (!isCellValid(x, y));
-        setSymbol(y, x, DOT_X);
+        setSymbol(x, y, DOT_X);
     }
 
     public static void setSymbol(int x, int y, char symbol) {
