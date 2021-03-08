@@ -1,6 +1,6 @@
 package Lesson5;
 
-public class HW5 {
+public class App {
     public static void main(String[] args) {
         Employee[] employeeArray = new Employee[5];
         employeeArray[0] = new Employee("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892312312", 30000, 30);
