@@ -3,7 +3,7 @@ package Lesson4;
 import java.util.Random;
 import java.util.Scanner;
 
-public class HW4 {
+public class Main {
     public static int SIZE = 5;
     public static int DOTS_TO_WIN = 4;
     public static final char DOT_EMPTY = '•';
