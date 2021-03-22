@@ -19,7 +19,7 @@ public class Main {
         try {
             sumArrayData(array);
         } catch (MyArrayDataException e) {
-            System.out.println("Ошибка MyArraySizeException в ячейке:" + e.i + " " + e.j);
+            System.out.println("Ошибка MyArrayDataException в ячейке:" + e.i + " " + e.j);
         }
     }
 
