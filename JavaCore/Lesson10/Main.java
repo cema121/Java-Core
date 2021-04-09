@@ -30,7 +30,7 @@ public class Main {
         System.out.println("List без дубликатов - " + unicumList);
 
         for (String s : new HashSet<>(wordList))
-            System.out.println(s + " - " + Collections.frequency(wordList, s) + " раз.");
+            System.out.println(s + " - " + Collections.frequency(wordList, s) + " раз."); // можно сделать лучше
     }
 
     public static void exercise2() {
