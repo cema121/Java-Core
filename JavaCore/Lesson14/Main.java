@@ -32,10 +32,10 @@ public class Main {
         int[] arr = ArrayUtils.subarray(array, (ArrayUtils.lastIndexOf(array, 4) + 1), array.length);
         try {
             if (!ArrayUtils.contains(array, 4))
-                throw new RuntimeException();
+                throw new RuntimeException("В массиве нет цифры [4]");
             System.out.println(Arrays.toString(arr));
         } catch (RuntimeException e) {
-            System.out.println("В массиве нет цифры [4]");
+            System.out.println(e);
         }
     }
 
