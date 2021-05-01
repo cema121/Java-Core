@@ -40,16 +40,17 @@ public class Main {
     }
 
     public static boolean second(int[] array) {
-        return (ArrayUtils.contains(array, 1)
-                && ArrayUtils.contains(array, 4)
-                && !ArrayUtils.contains(array, 2)
-                && !ArrayUtils.contains(array, 3)
-                && !ArrayUtils.contains(array, 5)
-                && !ArrayUtils.contains(array, 6)
-                && !ArrayUtils.contains(array, 7)
-                && !ArrayUtils.contains(array, 8)
-                && !ArrayUtils.contains(array, 9)
-                && !ArrayUtils.contains(array, 0)
-        );
+        boolean value1 = false;
+        boolean value2 = false;
+
+        for (int value : array) {
+            if (value == 1)
+                value1 = true;
+            else if (value == 4)
+                value2 = true;
+            else
+                return false;
+        }
+        return value1 && value2;
     }
 }
